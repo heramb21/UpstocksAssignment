@@ -7,15 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C60A88D2B7FCA0600801E5F /* HoldingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C60A88C2B7FCA0600801E5F /* HoldingsViewModel.swift */; };
+		8C60A8912B7FE10C00801E5F /* P&LTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C60A88F2B7FE10C00801E5F /* P&LTableViewCell.swift */; };
+		8C60A8922B7FE10C00801E5F /* P&LTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C60A8902B7FE10C00801E5F /* P&LTableViewCell.xib */; };
 		8CAD5BB22B7F819C00E9B497 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAD5BB12B7F819C00E9B497 /* AppDelegate.swift */; };
 		8CAD5BB42B7F819C00E9B497 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAD5BB32B7F819C00E9B497 /* SceneDelegate.swift */; };
 		8CAD5BB62B7F819C00E9B497 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAD5BB52B7F819C00E9B497 /* ViewController.swift */; };
 		8CAD5BB92B7F819C00E9B497 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CAD5BB72B7F819C00E9B497 /* Main.storyboard */; };
 		8CAD5BBB2B7F819D00E9B497 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CAD5BBA2B7F819D00E9B497 /* Assets.xcassets */; };
 		8CAD5BBE2B7F819D00E9B497 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CAD5BBC2B7F819D00E9B497 /* LaunchScreen.storyboard */; };
+		8CAD5BC82B7F870600E9B497 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAD5BC72B7F870600E9B497 /* NetworkManager.swift */; };
+		8CAD5BCA2B7F882E00E9B497 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAD5BC92B7F882E00E9B497 /* API.swift */; };
+		8CAD5BD32B7F916F00E9B497 /* HoldingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAD5BD12B7F916E00E9B497 /* HoldingsTableViewCell.swift */; };
+		8CAD5BD42B7F916F00E9B497 /* HoldingsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CAD5BD22B7F916F00E9B497 /* HoldingsTableViewCell.xib */; };
+		8CAD5BD62B7F933500E9B497 /* UserHolding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAD5BD52B7F933500E9B497 /* UserHolding.swift */; };
+		8CAD5BD82B7F948600E9B497 /* UserHoldingResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAD5BD72B7F948600E9B497 /* UserHoldingResponse.swift */; };
+		D43C0C697C5EA37B71D7D7F2 /* Pods_HerambUpstocksTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D8B7FD16CFE1DFF02148CE3 /* Pods_HerambUpstocksTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2180C70E21960E4D08CBA1E2 /* Pods-HerambUpstocksTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HerambUpstocksTest.release.xcconfig"; path = "Target Support Files/Pods-HerambUpstocksTest/Pods-HerambUpstocksTest.release.xcconfig"; sourceTree = "<group>"; };
+		8C60A88C2B7FCA0600801E5F /* HoldingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldingsViewModel.swift; sourceTree = "<group>"; };
+		8C60A88F2B7FE10C00801E5F /* P&LTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "P&LTableViewCell.swift"; sourceTree = "<group>"; };
+		8C60A8902B7FE10C00801E5F /* P&LTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "P&LTableViewCell.xib"; sourceTree = "<group>"; };
 		8CAD5BAE2B7F819C00E9B497 /* HerambUpstocksTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HerambUpstocksTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CAD5BB12B7F819C00E9B497 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CAD5BB32B7F819C00E9B497 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +38,14 @@
 		8CAD5BBA2B7F819D00E9B497 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CAD5BBD2B7F819D00E9B497 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CAD5BBF2B7F819D00E9B497 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CAD5BC72B7F870600E9B497 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		8CAD5BC92B7F882E00E9B497 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		8CAD5BD12B7F916E00E9B497 /* HoldingsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoldingsTableViewCell.swift; sourceTree = "<group>"; };
+		8CAD5BD22B7F916F00E9B497 /* HoldingsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HoldingsTableViewCell.xib; sourceTree = "<group>"; };
+		8CAD5BD52B7F933500E9B497 /* UserHolding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserHolding.swift; sourceTree = "<group>"; };
+		8CAD5BD72B7F948600E9B497 /* UserHoldingResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserHoldingResponse.swift; sourceTree = "<group>"; };
+		8D8B7FD16CFE1DFF02148CE3 /* Pods_HerambUpstocksTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HerambUpstocksTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0B83E8ACFF1E8B6BA103EF1 /* Pods-HerambUpstocksTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HerambUpstocksTest.debug.xcconfig"; path = "Target Support Files/Pods-HerambUpstocksTest/Pods-HerambUpstocksTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D43C0C697C5EA37B71D7D7F2 /* Pods_HerambUpstocksTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +65,8 @@
 			children = (
 				8CAD5BB02B7F819C00E9B497 /* HerambUpstocksTest */,
 				8CAD5BAF2B7F819C00E9B497 /* Products */,
+				B815E5416FEE062519518072 /* Pods */,
+				B930F5E6B6C828FE5E2AE471 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +83,111 @@
 			children = (
 				8CAD5BB12B7F819C00E9B497 /* AppDelegate.swift */,
 				8CAD5BB32B7F819C00E9B497 /* SceneDelegate.swift */,
-				8CAD5BB52B7F819C00E9B497 /* ViewController.swift */,
-				8CAD5BB72B7F819C00E9B497 /* Main.storyboard */,
+				8CAD5BCB2B7F8FBC00E9B497 /* Holdings */,
+				8CAD5BC52B7F830F00E9B497 /* WebServices */,
+				8CAD5BC62B7F831A00E9B497 /* Utils */,
 				8CAD5BBA2B7F819D00E9B497 /* Assets.xcassets */,
 				8CAD5BBC2B7F819D00E9B497 /* LaunchScreen.storyboard */,
 				8CAD5BBF2B7F819D00E9B497 /* Info.plist */,
 			);
 			path = HerambUpstocksTest;
+			sourceTree = "<group>";
+		};
+		8CAD5BC52B7F830F00E9B497 /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				8CAD5BC72B7F870600E9B497 /* NetworkManager.swift */,
+				8CAD5BC92B7F882E00E9B497 /* API.swift */,
+			);
+			path = WebServices;
+			sourceTree = "<group>";
+		};
+		8CAD5BC62B7F831A00E9B497 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8CAD5BCB2B7F8FBC00E9B497 /* Holdings */ = {
+			isa = PBXGroup;
+			children = (
+				8CAD5BCF2B7F90CC00E9B497 /* Models */,
+				8CAD5BCE2B7F909100E9B497 /* Views */,
+				8CAD5BCD2B7F908900E9B497 /* ViewModels */,
+			);
+			path = Holdings;
+			sourceTree = "<group>";
+		};
+		8CAD5BCC2B7F908100E9B497 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8CAD5BB52B7F819C00E9B497 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8CAD5BCD2B7F908900E9B497 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8C60A88C2B7FCA0600801E5F /* HoldingsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8CAD5BCE2B7F909100E9B497 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8CAD5BD92B7F961200E9B497 /* StoryBoards */,
+				8CAD5BCC2B7F908100E9B497 /* Controllers */,
+				8CAD5BD02B7F914800E9B497 /* TableViewCells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8CAD5BCF2B7F90CC00E9B497 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8CAD5BD72B7F948600E9B497 /* UserHoldingResponse.swift */,
+				8CAD5BD52B7F933500E9B497 /* UserHolding.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8CAD5BD02B7F914800E9B497 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				8CAD5BD12B7F916E00E9B497 /* HoldingsTableViewCell.swift */,
+				8CAD5BD22B7F916F00E9B497 /* HoldingsTableViewCell.xib */,
+				8C60A88F2B7FE10C00801E5F /* P&LTableViewCell.swift */,
+				8C60A8902B7FE10C00801E5F /* P&LTableViewCell.xib */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		8CAD5BD92B7F961200E9B497 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				8CAD5BB72B7F819C00E9B497 /* Main.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		B815E5416FEE062519518072 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0B83E8ACFF1E8B6BA103EF1 /* Pods-HerambUpstocksTest.debug.xcconfig */,
+				2180C70E21960E4D08CBA1E2 /* Pods-HerambUpstocksTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B930F5E6B6C828FE5E2AE471 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D8B7FD16CFE1DFF02148CE3 /* Pods_HerambUpstocksTest.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +197,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CAD5BC22B7F819D00E9B497 /* Build configuration list for PBXNativeTarget "HerambUpstocksTest" */;
 			buildPhases = (
+				E4E8A196B9582641F8A3EC9D /* [CP] Check Pods Manifest.lock */,
 				8CAD5BAA2B7F819C00E9B497 /* Sources */,
 				8CAD5BAB2B7F819C00E9B497 /* Frameworks */,
 				8CAD5BAC2B7F819C00E9B497 /* Resources */,
+				AF5AE534589FE18D5B630295 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +251,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CAD5BBE2B7F819D00E9B497 /* LaunchScreen.storyboard in Resources */,
+				8C60A8922B7FE10C00801E5F /* P&LTableViewCell.xib in Resources */,
+				8CAD5BD42B7F916F00E9B497 /* HoldingsTableViewCell.xib in Resources */,
 				8CAD5BBB2B7F819D00E9B497 /* Assets.xcassets in Resources */,
 				8CAD5BB92B7F819C00E9B497 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +260,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AF5AE534589FE18D5B630295 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HerambUpstocksTest/Pods-HerambUpstocksTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HerambUpstocksTest/Pods-HerambUpstocksTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HerambUpstocksTest/Pods-HerambUpstocksTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4E8A196B9582641F8A3EC9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HerambUpstocksTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8CAD5BAA2B7F819C00E9B497 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CAD5BC82B7F870600E9B497 /* NetworkManager.swift in Sources */,
+				8C60A88D2B7FCA0600801E5F /* HoldingsViewModel.swift in Sources */,
 				8CAD5BB62B7F819C00E9B497 /* ViewController.swift in Sources */,
 				8CAD5BB22B7F819C00E9B497 /* AppDelegate.swift in Sources */,
 				8CAD5BB42B7F819C00E9B497 /* SceneDelegate.swift in Sources */,
+				8CAD5BD62B7F933500E9B497 /* UserHolding.swift in Sources */,
+				8C60A8912B7FE10C00801E5F /* P&LTableViewCell.swift in Sources */,
+				8CAD5BCA2B7F882E00E9B497 /* API.swift in Sources */,
+				8CAD5BD32B7F916F00E9B497 /* HoldingsTableViewCell.swift in Sources */,
+				8CAD5BD82B7F948600E9B497 /* UserHoldingResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,18 +463,21 @@
 		};
 		8CAD5BC32B7F819D00E9B497 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0B83E8ACFF1E8B6BA103EF1 /* Pods-HerambUpstocksTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HerambUpstocksTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,26 +485,34 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.me.HerambUpstocksTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Debug;
 		};
 		8CAD5BC42B7F819D00E9B497 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2180C70E21960E4D08CBA1E2 /* Pods-HerambUpstocksTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HerambUpstocksTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -333,9 +520,14 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.me.HerambUpstocksTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = NO;
 			};
 			name = Release;
 		};
