@@ -21,7 +21,6 @@ class ViewController: CollapsibleTableSectionViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        progessView.StartAnimating(in: self.view)
         let nib = UINib(nibName: "HoldingsTableViewCell", bundle: nil)
         self._tableView.register(nib, forCellReuseIdentifier: "HoldingsTableViewCell")
         let nib1 =  UINib(nibName: "P&LTableViewCell", bundle: nil)
@@ -36,7 +35,6 @@ class ViewController: CollapsibleTableSectionViewController {
         
         NetworkManager.shared.request(type: EndpointItem.getUserHoldings, method: .get, parameters:[:], headers:headers, interceptor: nil, vc:self) { data, error  in
             guard let data = data else {return}
-            self.progessView.stopAnimating()
             do{
                 let decoder = JSONDecoder()
                 let json = try decoder.decode(UserHoldingResponse.self, from:data as! Data)
