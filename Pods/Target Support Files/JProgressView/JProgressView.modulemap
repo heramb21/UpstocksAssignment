@@ -1,0 +1,6 @@
+framework module JProgressView {
+  umbrella header "JProgressView-umbrella.h"
+
+  export *
+  module * { export * }
+}

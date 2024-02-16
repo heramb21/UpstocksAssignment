@@ -1,24 +1,28 @@
 PODS:
   - Alamofire (5.6.4)
   - CollapsibleTableSectionViewController (2.0.1)
+  - JProgressView (1.0.1)
   - SwiftyJSON (4.3.0)
 
 DEPENDENCIES:
   - Alamofire (~> 5.4)
   - CollapsibleTableSectionViewController (~> 2.0.1)
+  - JProgressView
   - SwiftyJSON (~> 4.0)
 
 SPEC REPOS:
   trunk:
     - Alamofire
     - CollapsibleTableSectionViewController
+    - JProgressView
     - SwiftyJSON
 
 SPEC CHECKSUMS:
   Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
   CollapsibleTableSectionViewController: 40d97d684d870044522a0dc29b128a6acaaa99df
+  JProgressView: 42b6597a50f731a8e4e710156f3c437eefed3a28
   SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
 
-PODFILE CHECKSUM: 9ce098675cc203004a56783417d4805c8f2749b5
+PODFILE CHECKSUM: fec3f35d55636926eb1c8231470a4a3a36c4f599
 
 COCOAPODS: 1.11.3
